@@ -57,9 +57,26 @@ a {
 
 /* products */
 
+.products .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 400px);
+    grid-template-columns: repeat(2, 390px);
+    justify-content: space-between;
+}
+
+.product .featured-img img {
+    width: 390px;
+    border-radius: 12px;
+}
+
+.product .desc p {
+    font-size: 14px;
 }
 
 /* footer */
