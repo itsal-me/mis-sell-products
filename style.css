@@ -16,6 +16,7 @@ body {
 
 h1 {
     font-size: 2.5rem;
+    font-family: "Playfair Display";
 }
 
 .header {
@@ -73,4 +74,18 @@ a {
 
 .hero .images img {
     width: 395px;
+}
+
+/* footer */
+
+.footer {
+    background-color: blueviolet;
+    color: white;
+}
+
+.footer .main {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
